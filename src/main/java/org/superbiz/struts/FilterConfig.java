@@ -14,6 +14,7 @@ public class FilterConfig {
         FilterRegistrationBean<SiteMeshFilter> filterRegistrationBean =
             new FilterRegistrationBean<>(new SiteMeshFilter());
         filterRegistrationBean.addUrlPatterns("/*");
+        filterRegistrationBean.setOrder(1);
         return filterRegistrationBean;
     }
 
@@ -27,6 +28,7 @@ public class FilterConfig {
         filterRegistrationBean.addUrlPatterns("/findUserForm.action");
         filterRegistrationBean.addUrlPatterns("/findUser.action");
         filterRegistrationBean.addUrlPatterns("/listAllUsers.action");
+        filterRegistrationBean.setOrder(2);
         return filterRegistrationBean;
     }
 }
