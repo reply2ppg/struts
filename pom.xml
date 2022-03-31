@@ -27,7 +27,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <springBootVersion>2.0.6.RELEASE</springBootVersion>
+        <springBootVersion>2.5.12</springBootVersion>
         <strutsVersion>2.5.18</strutsVersion>
     </properties>
 
